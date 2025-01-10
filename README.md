@@ -18,22 +18,25 @@ Setup:
 	- CAN modules
 	- evt. UART
 2. Installeren van de software:
-	Pico 1:
-	- `main.py` (pico 1)
+	<br>Pico 1:
+	- `main1.py` (hernoem naar `main.py`)
 	- `pid.py`
 	- `pwm.py`
 	- `MCP2515.py`
 	- `canio.py`
-	Pico 2:
-	- `main.py` (pico 2)
+ 	- `myTimer.py`
+	<br>Pico 2:
+	- `main2.py` (hernoem naar `main.py`)
 	- `temperature_probe.py`
 	- `MCP2515.py`
 	- `canio.py`
-	Pico 3:
-	- `main.py` (pico 3)
+ 	- `myTimer.py`
+	<br>Pico 3:
+	- `main3.py` (hernoem naar `main.py`)
 	- `pico_functions_v1_1.py`
 	- `MCP2515.py`
 	- `canio.py`
+ 	- `myTimer.py`
 3. Spanningsbron aansluiten
 
 Gebruik:
